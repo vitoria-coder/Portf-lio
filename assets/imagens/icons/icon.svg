@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .icon-bg {fill: #707880; }
+        .icon-text {fill: #ffffff; font-family: 'Segoe UI', Arial, sans-serif; font-weight: 900; }
+    </style>
+    <rect width="64" height="64" rx="12" class="icon-bg"/>
+
+    <text x="32" y="44"
+        font-size="28"
+        text-anchor="middle"
+        class="icon-text">
+    &lt;VS&gt;
+    </text>
+    </svg>

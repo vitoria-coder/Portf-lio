@@ -1,0 +1,40 @@
+body {
+    background-color: var(--color-bg);
+    font-family: var(--font-main);
+    color: var(--color-text-dark);
+}
+/* SEÇÃO DA LOGO */
+.svg-injectable {
+    max-width: 250px;
+    height: auto;
+}
+.svg-injectable text{
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards   ;
+    fill: var(--color-text-dark);
+    transition: fill var(--transition-fast);
+}
+@keyframes fadeIn {
+    to { opacity: 1;}
+}
+.svg-injectable line{
+    stroke-dasharray: 140;
+    stroke-dashoffset: 140;
+    stroke: var(--color-text-light);
+    transition: stroke var(--transition-fast);
+
+    animation: drawLine 1.5s ease-out forwards;
+    animation-delay: 0.5s;
+}
+@keyframes drawLine {
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+.svg-injectable:hover text{
+    fill: var(--color-primary);
+}
+.svg-injectable:hover line{
+    stroke: var(--color-primary);
+}
+/*icon*/

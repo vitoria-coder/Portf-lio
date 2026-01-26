@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .svg-injectable{
+        max-width: 180px;
+    }
+    header{
+        padding: 1rem;
+        text-align: center;
+    }
+}

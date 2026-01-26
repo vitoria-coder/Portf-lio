@@ -1,0 +1,10 @@
+:root{
+    --color-primary: #707880;
+    --color-secondary: #939eaa;
+    --color-text-dark: #333333;
+    --color-text-light: #cccccc;
+    --color-bg: #f8f8f8;
+
+    --font-main: 'Arial', sans-serif;
+    --transition-fast: 0.3s ease;
+}
